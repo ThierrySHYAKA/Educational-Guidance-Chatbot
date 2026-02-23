@@ -1,9 +1,13 @@
-# EduGuide — Undergraduate Admissions Chatbot
+# Education Guidance — Undergraduate Admissions Chatbot
 
 > **Domain-specific LLM fine-tuning for educational guidance**  
 > Fine-tuned TinyLlama-1.1B · QLoRA (4-bit NF4 + LoRA via PEFT) · Gradio Deployment
 
-[![Open In Colab](https://colab.research.google.com/drive/1Qc4pt-hLTeuxsm4A_eUgCgV9L7OdHJIy?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Qc4pt-hLTeuxsm4A_eUgCgV9L7OdHJIy?usp=sharing)
+
+## Demo Video Link
+
+(https://youtu.be/I0-Sa7g20Vc)
 
 ---
 
@@ -80,7 +84,7 @@ To reach the recommended 1,000–5,000 training examples, **rule-based paraphras
 | **Question-word substitution** | Replaces `"How"` → `"Can you explain how"`, `"What"` → `"Could you describe what"`, etc. |
 | **Response suffix variation** | Optionally appends encouraging endings to responses |
 
-**Result:** 166 original × 6 augmented variants + 166 originals = **1,162 total pairs** 
+**Result:** 166 original × 6 augmented variants + 166 originals = **1,162 total pairs**
 
 ```
 Category split after augmentation:
